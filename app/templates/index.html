@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+{% block styles %}
+{{ super() }}
+{{ styles }}
+{% endblock %}
+{% block content %}
+<div class="container pb-5">
+
+  <div class="row justify-content-center">
+
+    <div class="col-auto col-md-10">
+      {{ content }}
+    </div>
+    <div class="container">
+      <p>Stack Overflow is a question and answer website for professional and enthusiast programmers. It is the flagship
+        site of the Stack Exchange Network.It was created in 2008 by Jeff Atwood and Joel Spolsky.
+        It features questions and answers on a wide range of topics in computer programming. It was created to be a more
+        open alternative to earlier question and answer websites such as Experts-Exchange. Stack Overflow was sold to
+        Prosus, a Netherlands-based consumer internet conglomerate, on 2 June 2021 for $1.8 billion.
+        <br>
+        The website serves as a platform for users to ask and answer questions, and, through membership and active
+        participation, to vote questions and answers up or down similar to Reddit and edit questions and answers in a
+        fashion similar to a wiki. Users of Stack Overflow can earn reputation points and "badges"; for example, a
+        person is awarded 10 reputation points for receiving an "up" vote on a question or an answer to a question, and
+        can receive badges for their valued contributions, which represents a gamification of the traditional Q&A
+        website.
+        Users unlock new privileges with an increase in reputation like the ability to vote, comment, and even edit
+        other people's posts.
+      </p>
+    </div>
+    <span class="container ">
+      <img src="{{url_for('static', filename='dev-survey-2021.png')}} " class="img-fluid img-thumbnail">
+    </span>
+  </div>
+  
+</div>
+{% include 'partials/footer.html' %}
+{% endblock %}
+{% block scripts %}
+{{ super() }}
+{% endblock %}

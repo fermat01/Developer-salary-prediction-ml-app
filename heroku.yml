@@ -1,0 +1,8 @@
+setup:
+  config:
+    APP_NAME: Stackoverflow ml application 
+build:
+  docker:
+    web: ./Dockerfile
+run:
+  web: uwsgi --http 0:$PORT --wsgi-file ./app/main.py #--master --processes 4 --threads 2
