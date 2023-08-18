@@ -7,7 +7,6 @@
 ![ViewCount](https://views.whatilearened.today/views/github/fermat01/stackoverflow-ml-app.svg?cache=remove)
 
 Embed Plotly Dash into machine learning web application using Flask. Docker-based Flask project wrapping Plotly's Dash in one single Flask app.
-
 ## Overview
 
 In this project, we use survey data from stackoverflow to predict developer salary by embed Plotly Dash into machine learning web application using Flask.
