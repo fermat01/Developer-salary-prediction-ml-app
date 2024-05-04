@@ -1,4 +1,4 @@
-## stackoverflow machine learning application using Flask and Dash
+##Developer salary prediction using stackoverflow dataset and web application using Flask and Dash
 
 ![GitHub](https://img.shields.io/github/license/fermat01/stackoverflow-ml-app?style=flat)
 ![GitHub top language](https://img.shields.io/github/languages/top/fermat01/stackoverflow-ml-app?style=flat)
@@ -25,8 +25,8 @@ Docker base image:
 ## Getting started
 Make sure docker is running on your system.
 ```
-git clone https://github.com/fermat01/stackoverflow-ml-app.git
-cd stackoverflow-ml-app
+git clone https://github.com/fermat01/Developer-salary-prediction-ml-app.git
+cd Developer-salary-prediction-ml-app
 docker-compose up -d
 ```
 
