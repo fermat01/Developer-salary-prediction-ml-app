@@ -1,4 +1,4 @@
-##Developer salary prediction using stackoverflow dataset and web application using Flask and Dash
+## Developer salary prediction using stackoverflow dataset and web application using Flask and Dash
 
 ![GitHub](https://img.shields.io/github/license/fermat01/stackoverflow-ml-app?style=flat)
 ![GitHub top language](https://img.shields.io/github/languages/top/fermat01/stackoverflow-ml-app?style=flat)
